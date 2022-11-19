@@ -2,5 +2,7 @@
 
 # returns welcome screen
 class WelcomeController < ApplicationController
-  def index; end
+  def index
+    @name = params[:name] == nil ? 'Higor' : params[:name]
+  end
 end
