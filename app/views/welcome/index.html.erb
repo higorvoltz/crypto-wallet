@@ -1,6 +1,3 @@
-<h1>Seja bem-vindo!, hoje <%= Date.today%> é uma dia muito especial!</h1>
-<ul>
-  <li>
-    <%= link_to "Cadastro de Moedas", coins_path%>
-  </li>
-</ul>
+<h1><%= @name%> Seja bem-vindo!, hoje <%= data_br(Date.today)%> é uma dia muito especial!</h1>
+<h3><%= app_name%></h3>
+<%= render 'menu'%>
