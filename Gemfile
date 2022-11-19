@@ -47,6 +47,9 @@ gem 'bootsnap', require: false
 # https://stackoveflow.com/a/70500221
 gem 'net-smtp', '~> 0.3.3', require: false
 
+# https://rubygems.org/gems/pry-rails/versions/0.3.3?locale=pt-BR
+gem 'pry-rails'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
