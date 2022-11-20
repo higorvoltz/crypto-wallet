@@ -50,6 +50,9 @@ gem 'net-smtp', '~> 0.3.3', require: false
 # https://rubygems.org/gems/pry-rails/versions/0.3.3?locale=pt-BR
 gem 'pry-rails'
 
+# https://rubygems.org/gems/tty-spinner/versions/0.1.0?locale=pt-BR
+gem 'tty-spinner'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
