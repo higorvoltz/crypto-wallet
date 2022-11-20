@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
+# coins controllers
 class CoinsController < ApplicationController
+  layout 'adm'
   before_action :set_coin, only: %i[show edit update destroy]
 
   # GET /coins or /coins.json
