@@ -43,16 +43,16 @@ namespace :dev do
 
     mining_types = [
       {
-        name: 'Proof of Work',
-        initials: 'POW'
+        description: 'Proof of Work',
+        acronym: 'POW'
       },
       {
-        name: 'Proof of Stack',
-        initials: 'POS'
+        description: 'Proof of Stack',
+        acronym: 'POS'
       },
       {
-        name: 'Proof of Capacity',
-        initials: 'POC'
+        description: 'Proof of Capacity',
+        acronym: 'POC'
       }
     ]
 

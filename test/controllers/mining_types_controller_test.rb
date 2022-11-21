@@ -19,7 +19,8 @@ class MiningTypesControllerTest < ActionDispatch::IntegrationTest
 
   test 'should create mining_type' do
     assert_difference('MiningType.count') do
-      post mining_types_url, params: { mining_type: { initials: @mining_type.initials, name: @mining_type.name } }
+      post mining_types_url,
+           params: { mining_type: { acronym: @mining_type.acronym, description: @mining_type.description } }
     end
 
     assert_redirected_to mining_type_url(MiningType.last)
@@ -37,7 +38,7 @@ class MiningTypesControllerTest < ActionDispatch::IntegrationTest
 
   test 'should update mining_type' do
     patch mining_type_url(@mining_type),
-          params: { mining_type: { initials: @mining_type.initials, name: @mining_type.name } }
+          params: { mining_type: { acronym: @mining_type.acronym, description: @mining_type.description } }
     assert_redirected_to mining_type_url(@mining_type)
   end
 
