@@ -3,6 +3,6 @@
 # returns welcome screen
 class WelcomeController < ApplicationController
   def index
-    @name = params[:name] == nil ? 'Higor' : params[:name]
+    @name = params[:name].nil? ? 'Higor' : params[:name]
   end
 end
