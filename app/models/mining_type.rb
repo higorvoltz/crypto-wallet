@@ -2,5 +2,5 @@
 
 # class mining_type
 class MiningType < ApplicationRecord
-  belongs_to :coin
+  has_many :coins
 end
