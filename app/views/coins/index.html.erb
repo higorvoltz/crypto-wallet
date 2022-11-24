@@ -1,6 +1,8 @@
 <p id="notice"><%= notice %></p>
 <p><%= data_br(Date.today)%></p>
 <h1>Coins</h1>
+<br>
+<h3><%= cookies[:curso]%></h3>
 
 <table>
   <thead>
@@ -30,3 +32,4 @@
 
 <%= link_to 'Home', welcome_index_path%>
 <%= link_to 'New Coin', new_coin_path %>
+
