@@ -46,6 +46,8 @@ gem 'bootsnap', require: false
 
 # https://stackoveflow.com/a/70500221
 gem 'net-smtp', '~> 0.3.3', require: false
+gem 'net-imap', require: false
+gem 'net-pop', require: false
 
 # https://rubygems.org/gems/pry-rails/versions/0.3.3?locale=pt-BR
 gem 'pry-rails'
@@ -55,6 +57,11 @@ gem 'tty-spinner'
 
 # Use Sass to process CSS
 gem 'sassc-rails'
+
+# https://rails-assets.org/#/components/jQuery
+gem 'rails-assets-jQuery', '3.3.1', source: 'https://rails-assets.org'
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
+
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
